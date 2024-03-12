@@ -1,0 +1,61 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: teal;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+nav button {
+    font-size: 20px;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+#content img
+{
+    width: 300px;
+    height: auto;
+}
+
+.card {
+    background-color: aquamarine;
+    width: 550px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: darkorange;
+}
+
+
